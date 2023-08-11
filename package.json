@@ -1,0 +1,15 @@
+{
+  "name": "rabbit-service",
+  "version": "1.0.0",
+  "description": "![task.png](assets%2Ftask.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd ServiceA && npm run dev\" \"cd ServiceB && npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

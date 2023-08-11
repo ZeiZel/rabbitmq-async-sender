@@ -4,6 +4,7 @@
   "description": "![task.png](assets%2Ftask.png)",
   "main": "index.js",
   "scripts": {
+    "install:dep": "concurrently \"npm i\" \"cd ServiceA && npm i\" \"cd ServiceB && npm i\"",
     "dev": "concurrently \"cd ServiceA && npm run dev\" \"cd ServiceB && npm run dev\""
   },
   "keywords": [],

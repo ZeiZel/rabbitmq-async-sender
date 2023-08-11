@@ -6,6 +6,12 @@
 
 ## Installation:
 
+First of all, you need to install dependencies (that command install all deps in all directories):
+
+```bash
+npm install:dep
+```
+
 From root of project (concurrently enable both):
 
 ```bash
